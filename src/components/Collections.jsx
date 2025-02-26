@@ -98,6 +98,9 @@ const productData = {
 const Collections = () => {
   return (
     <div className="text-primary-dark">
+      <h1 className="text-2xl text-primary-dark text-center py-4">
+        Your Best Picks
+      </h1>
       <div className="grid grid-cols-2 gap-3">
         <img src={plantcare} alt="plantcare" />
         <img src={plants} alt="plants" />
@@ -107,7 +110,7 @@ const Collections = () => {
 
       {/* Best Sellers */}
       <div className="py-6">
-        <h1 className="text-2xl pb-2 text-center">Bestsellers</h1>
+        <h1 className="text-2xl pb-4 text-center">Bestsellers</h1>
         <Swiper
           // pagination={{
           //   clickable: true,

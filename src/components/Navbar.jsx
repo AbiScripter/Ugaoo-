@@ -23,7 +23,7 @@ const Navbar = () => {
         <Swiper
           // pagination={pagination}
           autoplay={{
-            delay: 5000,
+            delay: 3000,
             disableOnInteraction: false,
           }}
           // pagination={{

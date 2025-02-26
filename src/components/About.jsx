@@ -46,7 +46,10 @@ const About = () => {
       </div>
 
       {/* Subscription */}
-      <div className="px-4 py-8" style={{ backgroundColor: "#eff8f2" }}>
+      <div
+        className="px-4 py-8 flex flex-col items-center justify-center"
+        style={{ backgroundColor: "#eff8f2" }}
+      >
         <img src={subscription} alt="subscription-gig" />
         <div className="flex flex-col gap-4 items-center justify-center py-4">
           <h2 className="text-primary-dark text-2xl">Plant Subscriptions</h2>
